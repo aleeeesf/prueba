@@ -17,6 +17,7 @@ def recibir():
             else:
                 print(data)
         except:
+	    print("Te has salido antes")
             print("IMPORTANTE: NO estas en el chat")
             check = False
             udp.close()
