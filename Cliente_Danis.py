@@ -12,4 +12,6 @@ s.send(bytes("Hola servidor","utf-8")) #enviamos mensaje al servidor
 mensaje = s.recv(1024) #recibimos el mensaje
 print(mensaje.decode("utf-8")) #imprimimos el mensaje del servidor por pantalla
 
+
+print("Hola, he añadido esta linea")
 s.close()
